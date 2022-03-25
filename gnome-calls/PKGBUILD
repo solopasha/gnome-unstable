@@ -1,5 +1,5 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
-options=(debug !strip)
+options=(!strip)
 
 pkgname=gnome-calls
 pkgver=42.0
@@ -28,7 +28,7 @@ pkgver() {
 
 prepare() {
   cd calls
-  
+
   git submodule init
   git submodule set-url subprojects/libcall-ui "$srcdir/libcall-ui"
   git submodule update

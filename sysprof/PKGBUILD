@@ -5,7 +5,7 @@
 # Contributor: Eric Belanger <belanger@astro.umontreal.ca>
 # Contributor: aeolist <aeolist@hotmail.com>
 # Contributor: Gabriel Rauter <rauter.gabriel@gmail.com>
-options=(debug)
+
 
 pkgbase=sysprof
 pkgname=(sysprof libsysprof-capture)

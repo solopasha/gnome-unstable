@@ -1,5 +1,5 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
-options=(debug !strip)
+options=(!strip)
 
 pkgname=callaudiod
 pkgver=0.1.4

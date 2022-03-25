@@ -2,7 +2,7 @@
 # Contributor: Brian Bidulock <bidulock@openss7.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Bjorn Lindeijer <bjorn lindeijer nl>
-options=(debug !strip)
+options=(!strip)
 
 pkgname=sofia-sip
 pkgver=1.13.7

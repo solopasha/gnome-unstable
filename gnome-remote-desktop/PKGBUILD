@@ -1,6 +1,6 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-options=(debug)
+
 
 pkgname=gnome-remote-desktop
 pkgver=42.0
@@ -37,7 +37,7 @@ _check() {
   mkdir -p -m 700 "${XDG_RUNTIME_DIR:=$PWD/runtime-dir}"
   glib-compile-schemas "${GSETTINGS_SCHEMA_DIR:=$PWD/build/src}"
   export XDG_RUNTIME_DIR GSETTINGS_SCHEMA_DIR
-  
+
   pipewire &
   _p1=$!
   sleep 1

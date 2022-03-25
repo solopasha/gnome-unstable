@@ -1,6 +1,6 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Balló György <ballogyor+arch at gmail dot com>
-options=(debug)
+
 
 pkgname=gnome-tour
 pkgver=42.0

@@ -1,5 +1,5 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
-options=(debug !strip)
+options=(!strip)
 
 pkgname=gnome-text-editor
 pkgver=42.0

@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 # Contributor: William Rea <sillywilly@gmail.com>
-options=(debug)
+
 
 pkgname=orca
 pkgver=42.0

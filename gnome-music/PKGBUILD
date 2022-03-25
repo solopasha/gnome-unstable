@@ -1,7 +1,7 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
-options=(debug)
+
 
 pkgname=gnome-music
 pkgver=42.0
@@ -11,8 +11,8 @@ pkgdesc="Music player and management application"
 url="https://wiki.gnome.org/Apps/Music"
 arch=(x86_64)
 license=(GPL)
-depends=(grilo grilo-plugins gst-plugins-base gvfs libadwaita libdazzle 
-         libdmapsharing libmediaart python-cairo python-gobject 
+depends=(grilo grilo-plugins gst-plugins-base gvfs libadwaita libdazzle
+         libdmapsharing libmediaart python-cairo python-gobject
          python-requests tracker3-miners)
 makedepends=(gobject-introspection git meson yelp-tools appstream-glib)
 optdepends=('gst-plugins-good: Extra media codecs'

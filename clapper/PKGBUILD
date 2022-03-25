@@ -1,5 +1,5 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
-options=(debug)
+
 
 pkgname=clapper
 pkgver=0.4.1

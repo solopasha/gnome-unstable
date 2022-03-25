@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Lukas Fleischer <lfleischer@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
-options=(debug)
+
 
 pkgname=adwaita-icon-theme
 pkgver=42.0
@@ -26,7 +26,7 @@ prepare() {
   cd $pkgname
   autoreconf -fvi
 }
-  
+
 build() {
   cd $pkgname
   ./configure --prefix=/usr

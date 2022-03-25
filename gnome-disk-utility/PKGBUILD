@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 # Contributor: Silvio Knizek (killermoehre)
-options=(debug)
+
 
 pkgname=gnome-disk-utility
 pkgver=42.0

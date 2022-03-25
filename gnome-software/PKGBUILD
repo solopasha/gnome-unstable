@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 # Contributor: Yosef Or Boczko <yoseforb@gnome.org>
-options=(debug)
+
 
 pkgbase=gnome-software
 pkgname=(gnome-software gnome-software-packagekit-plugin)

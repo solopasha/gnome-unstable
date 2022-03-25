@@ -1,6 +1,6 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Felix Yan <felixonmars@archlinux.org>
-options=('!emptydirs' 'debug')
+options=('!emptydirs')
 
 pkgbase=ibus
 pkgname=(ibus libibus)

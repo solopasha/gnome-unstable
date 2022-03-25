@@ -3,7 +3,7 @@
 # Contributor: Thomas Dziedzic < gostrc at gmail >
 # Contributor: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
 # Contributor: Joeny Ang <ang(dot)joeny(at)gmail(dot)com>
-options=(debug)
+
 
 pkgname=simple-scan
 pkgver=42.0

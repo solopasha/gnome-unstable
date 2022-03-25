@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Roman Kyrylych <roman@archlinux.org>
-options=(debug)
+
 
 pkgname=gnome-bluetooth
 pkgver=42.0

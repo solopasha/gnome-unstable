@@ -1,7 +1,7 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
-options=(debug)
+
 
 pkgname=gnome-tweaks
 pkgver=42.beta.0

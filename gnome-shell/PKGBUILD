@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Flamelab <panosfilip@gmail.com>
-options=(debug)
+
 
 pkgname=gnome-shell
 pkgver=42.0

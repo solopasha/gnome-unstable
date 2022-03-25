@@ -1,6 +1,6 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Igor Dyatlov <dyatlov.igor@gmail.com>
-options=(debug)
+
 
 pkgname=gnome-console
 pkgver=42.beta.0+r12+ga7feb43

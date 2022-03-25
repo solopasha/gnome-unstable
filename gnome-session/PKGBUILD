@@ -1,6 +1,6 @@
 # Maintainer: Fabian Bornschein <fabiscafe-cat-mailbox-dog-org>
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-options=(debug)
+
 
 pkgname=gnome-session
 pkgver=42.0

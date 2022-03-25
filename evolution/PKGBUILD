@@ -14,7 +14,7 @@ depends=(gnome-desktop cmark enchant evolution-data-server libcanberra libpst li
          dconf gspell libcryptui gnome-autoar)
 makedepends=(intltool itstool docbook-xsl networkmanager bogofilter
              spamassassin highlight gtk-doc yelp-tools git cmake ninja)
-options=(!emptydirs debug)
+options=(!emptydirs )
 _commit=0839b6f5b459b2fdd79e1fcf385b8d5c7759135f  # tag/3.44.0^0
 source=("git+https://gitlab.gnome.org/GNOME/evolution.git#commit=$_commit")
 sha256sums=('SKIP')
