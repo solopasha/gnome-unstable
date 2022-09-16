@@ -13,7 +13,6 @@ depends=(gjs gst-plugins-good gst-plugins-base gst-plugins-bad-libs
          libadwaita)
 makedepends=(gobject-introspection git meson)
 groups=(gnome-extra)
-options=(debug)
 _commit=aaae3311d1a88f1268a2b4cacf50b42ed918fc88  # tags/43.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-sound-recorder.git#commit=$_commit")
 sha256sums=('SKIP')

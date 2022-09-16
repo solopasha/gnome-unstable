@@ -23,7 +23,6 @@ optdepends=('gnome-control-center: System settings'
             'gst-plugins-good: Screen recording'
             'gst-plugin-pipewire: Screen recording')
 groups=(gnome)
-options=(debug)
 _commit=316dc289f2ba2906330d134a7f1a5d574405a682  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-shell.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgnome-volume-control.git")

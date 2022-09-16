@@ -10,7 +10,6 @@ arch=(x86_64)
 license=(GPL)
 depends=("glib2>=2.73.0" libadwaita)
 makedepends=(git meson)
-options=(debug)
 _commit=4daf6fbf18017707b415958461ef128b200de859  # tags/1.2.1^0
 source=("git+https://gitlab.gnome.org/GNOME/d-spy.git#commit=$_commit")
 sha256sums=('SKIP')

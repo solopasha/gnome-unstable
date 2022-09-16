@@ -15,7 +15,6 @@ optdepends=('evince: Print previews')
 provides=(xdg-desktop-portal-impl)
 conflicts=('xdg-desktop-portal-gtk<1.10.0-2')
 replaces=('xdg-desktop-portal-gtk<1.10.0-2')
-options=(debug)
 _commit=7ab4aa9d3c4c714defe4ea87e1072ee42cec119b  # tags/43.0^0
 source=("git+https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome.git#commit=$_commit")
 sha256sums=('SKIP')

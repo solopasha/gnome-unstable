@@ -11,7 +11,6 @@ license=(GPL)
 depends=(systemd libadwaita gsettings-desktop-schemas)
 makedepends=(appstream-glib git meson yelp-tools)
 groups=(gnome)
-options=(debug)
 _commit=df508569254b8cadbf84621c89462709ccf0225b  # tags/gnome-logs-43.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-logs.git#commit=$_commit")
 sha256sums=('SKIP')

@@ -17,7 +17,6 @@ checkdepends=(python-gobject python-dbusmock xorg-server-xvfb umockdev gnome-ses
 optdepends=('usbguard: USB protection support')
 groups=(gnome)
 backup=(etc/xdg/Xwayland-session.d/00-xrdb)
-options=(debug)
 _commit=fc523ea635fb5d8062fad5873adf51f7d681458c  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-settings-daemon.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgnome-volume-control.git")

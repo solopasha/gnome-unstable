@@ -14,7 +14,6 @@ license=(GPL)
 depends=(gnome-desktop libexif lcms2 exempi libpeas librsvg libhandy webp-pixbuf-loader
          libportal libportal-gtk3)
 makedepends=(gobject-introspection gi-docgen git meson yelp-tools systemd)
-options=(debug)
 _commit=d55f5d89499ab07dbaca4e3643c55ee6eba38ccd  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/eog.git#commit=$_commit")
 sha256sums=('SKIP')

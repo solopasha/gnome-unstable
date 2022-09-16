@@ -15,7 +15,6 @@ makedepends=(appstream gsettings-desktop-schemas libpackagekit-glib flatpak
              fwupd docbook-xsl git gobject-introspection gtk-doc meson
              valgrind gnome-online-accounts libxmlb malcontent gtk4 libadwaita
              libsysprof-capture)
-options=(debug)
 _commit=d3dcaf77a095e74ff7b3a3ffe0c88f54e3570955  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-software.git#commit=$_commit")
 sha256sums=('SKIP')

@@ -15,7 +15,6 @@ makedepends=(yelp-tools vala gobject-introspection git gtk-doc meson
 optdepends=('gedit-plugins: Additional features')
 conflicts=('gedit-code-assistance<=3.16.0+4+gd19b879-1')
 groups=(gnome)
-options=(debug)
 _commit=4415f481975ee2ae5ce519c454656e2682f51bd2  # tags/43.alpha^0
 source=("git+https://gitlab.gnome.org/GNOME/gedit.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgd.git")

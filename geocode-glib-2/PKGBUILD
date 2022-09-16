@@ -12,7 +12,6 @@ license=(LGPL)
 depends=(geocode-glib glib2 json-glib libsoup3)
 makedepends=(gobject-introspection git gtk-doc meson)
 provides=(libgeocode-glib-2.so)
-options=(debug)
 _commit=210abe69d68e38947106f4680631c369b0c23189  # tags/3.26.4^0
 source=("git+https://gitlab.gnome.org/GNOME/geocode-glib.git#commit=$_commit")
 sha256sums=('SKIP')

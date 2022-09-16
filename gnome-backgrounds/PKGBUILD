@@ -13,7 +13,6 @@ depends=(webp-pixbuf-loader)
 makedepends=(git glib2 meson)
 license=(GPL)
 groups=(gnome)
-options=(debug)
 _commit=539aa328fda78826b9597c7c391485fb392a6431  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-backgrounds.git#commit=$_commit")
 sha256sums=('SKIP')

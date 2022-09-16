@@ -12,7 +12,6 @@ license=(GPL2)
 depends=(gtk3 gtk4 libgcrypt p11-kit openssh libsecret)
 makedepends=(gi-docgen gobject-introspection vala libxslt git gtk-doc meson)
 provides=(libgck-2.so libgcr-4.so)
-options=(debug)
 _commit=c15a18f7d23f66fb70deabba11313ecdb23cd375  # tags/3.92.0^0
 backup=(etc/security/limits.d/10-gcr-4.conf)
 install=gcr.install

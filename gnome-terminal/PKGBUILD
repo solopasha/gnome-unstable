@@ -12,7 +12,6 @@ license=(GPL)
 depends=(vte3 gsettings-desktop-schemas)
 makedepends=(docbook-xsl libnautilus-extension gnome-shell yelp-tools git meson)
 groups=(gnome)
-options=(debug)
 _commit=64a251b020273be56cbc9ad8c4f1d4de0a218f52  # tags/3.45.99^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-terminal.git#commit=$_commit")
 sha256sums=('SKIP')

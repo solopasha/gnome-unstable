@@ -14,7 +14,6 @@ depends=(libgexiv2 gnome-desktop-4 gvfs dconf tracker3 tracker3-miners
          gnome-autoar gst-plugins-base-libs libadwaita libportal-gtk4)
 makedepends=(gobject-introspection git gi-docgen meson libcloudproviders appstream-glib)
 checkdepends=(python-gobject)
-options=(debug)
 _commit=e1f35250571a1388fb67ddc5a710912e2e6e6d8c  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/nautilus.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgd.git")

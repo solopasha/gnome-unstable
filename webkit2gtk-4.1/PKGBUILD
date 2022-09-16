@@ -21,7 +21,6 @@ optdepends=('geoclue: Geolocation support'
             'gst-plugins-good: media decoding'
             'gst-plugins-bad: media decoding'
             'gst-libav: nonfree media decoding')
-options=(debug)
 # Using git directly requires to load around 3GiB
 # While the tarball "only" is around 1GiB
 source=("https://github.com/WebKit/WebKit/archive/refs/tags/webkitgtk-${pkgver}.tar.gz")

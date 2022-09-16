@@ -18,7 +18,6 @@ depends=(editorconfig-core-c gtksourceview5 libgit2-glib gjs python-gobject sysp
 makedepends=(llvm gobject-introspection gi-docgen yelp-tools appstream-glib git
              mm-common python-sphinx_rtd_theme jedi-language-server)
 checkdepends=(xorg-server-xvfb)
-options=(debug)
 _commit=d9acc49090af3e97895baeb5de45c00faddaa27b  # tags/43.alpha1^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-builder.git#commit=$_commit")
 sha256sums=('SKIP')

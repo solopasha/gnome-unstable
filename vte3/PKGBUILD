@@ -12,7 +12,6 @@ arch=(x86_64)
 license=(LGPL)
 depends=(gtk3 gtk4 pcre2 gnutls fribidi systemd)
 makedepends=(gobject-introspection vala git gi-docgen gperf meson)
-options=(debug)
 _commit=768acd1c0a8bd11b9b9fc2be78d8a3159ecef32b  # tags/0.69.99^0
 source=("git+https://gitlab.gnome.org/GNOME/vte.git#commit=$_commit")
 sha256sums=('SKIP')

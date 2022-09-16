@@ -19,7 +19,6 @@ makedepends=(gobject-introspection git egl-wayland meson xorg-server
              wayland-protocols sysprof gi-docgen)
 # Zenity was removed as dependency, but is still required for the checks
 checkdepends=(xorg-server-xvfb wireplumber python-dbusmock zenity)
-options=(debug)
 _commit=383c32e7565da5f1ddd0d10ed397e5797c070366  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/mutter.git#commit=$_commit")
 sha256sums=('SKIP')

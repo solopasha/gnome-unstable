@@ -16,7 +16,6 @@ depends=(gtk3 at-spi2-core python-atspi python-dbus python-xdg speech-dispatcher
          gst-plugins-good # pulsesink, more decoders
 )
 makedepends=(itstool intltool git yelp-tools)
-options=(debug)
 groups=(gnome)
 _commit=755f2a16243d5782bd8f66ebb04a523d244994dd  # tags/ORCA_43_BETA^0
 source=("git+https://gitlab.gnome.org/GNOME/orca.git#commit=$_commit")

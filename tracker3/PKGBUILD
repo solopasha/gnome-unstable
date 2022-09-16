@@ -15,7 +15,6 @@ depends=(sqlite icu "glib2>=2.73.3" libffi util-linux libstemmer libseccomp json
          libsoup3 python-gobject libxml2)
 makedepends=(gobject-introspection vala git hotdoc bash-completion meson
              asciidoc systemd python-dbus python-tappy)
-options=(debug)
 _commit=8c76d4d32bdb3167200abd454db1426e7837e790  # tags/3.4.0.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/tracker.git#commit=$_commit")
 sha256sums=('SKIP')

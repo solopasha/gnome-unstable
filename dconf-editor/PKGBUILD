@@ -11,7 +11,6 @@ license=(GPL3)
 groups=(gnome-extra)
 depends=(dconf libhandy)
 makedepends=(vala meson git)
-options=(debug)
 _commit=9291efd4b18bcd3bef31fc997efe99a7730080f4  # tags/43.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/dconf-editor.git#commit=$_commit")
 sha256sums=('SKIP')

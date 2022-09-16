@@ -17,7 +17,6 @@ optdepends=('p7zip: 7z, arj, exe and encrypted zip files support'
             'lrzip: lrzip archive support'
             'squashfs-tools: squashfs image support')
 groups=(gnome)
-options=(debug)
 _commit=29c46cfcc7962aa6010e2bcb58a72eeea640abc7  # tags/43.alpha^0
 source=("git+https://gitlab.gnome.org/GNOME/file-roller.git#commit=$_commit")
 sha256sums=('SKIP')

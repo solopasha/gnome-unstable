@@ -12,7 +12,6 @@ license=(GPL2)
 depends=(dconf gtk4 gsettings-desktop-schemas librsvg libadwaita)
 makedepends=(vala gobject-introspection yelp-tools appstream-glib git meson)
 groups=(gnome)
-options=(debug)
 _commit=9845128b6479161af6b4cde46a6e5fc197b54b00  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/baobab.git#commit=$_commit"
         no-mimetype.diff)

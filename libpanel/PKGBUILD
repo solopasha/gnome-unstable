@@ -10,7 +10,6 @@ license=(LGPL)
 depends=(libadwaita)
 makedepends=(git gobject-introspection meson vala)
 provides=(libpanel-1.so)
-options=(debug)
 _commit=6d3cd038f508c91e60b49a824a1c8d3f1cf8b287  # tags/1.0.alpha1^0
 source=("git+https://gitlab.gnome.org/chergert/libpanel.git#commit=$_commit")
 sha256sums=('SKIP')

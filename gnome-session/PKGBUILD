@@ -12,7 +12,6 @@ depends=(systemd dconf gsettings-desktop-schemas gnome-desktop json-glib libgl
          libsm libxtst)
 makedepends=(mesa gtk-doc xtrans git python xmlto docbook-xsl meson)
 groups=(gnome)
-options=(debug)
 _commit=7040e3e595040698fc67ddffaa5be499958237ff  # tags/42.0^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-session.git#commit=$_commit")
 sha256sums=('SKIP')

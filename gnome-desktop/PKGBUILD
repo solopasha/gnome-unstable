@@ -15,7 +15,6 @@ makedepends=(gobject-introspection git meson gtk-doc yelp-tools
              gsettings-desktop-schemas gtk3 gtk4 xkeyboard-config iso-codes
              libseccomp bubblewrap systemd libxkbcommon)
 checkdepends=(xorg-server-xvfb)
-options=(debug)
 _commit=5c4ab8d7075d14ab48d35351e7c3c2e924956ef0  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-desktop.git#commit=$_commit")
 sha256sums=('SKIP')

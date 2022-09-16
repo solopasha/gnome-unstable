@@ -15,7 +15,6 @@ provides=(libcamel-1.2.so libebackend-1.2.so libebook-1.2.so libebook-contacts-1
           libecal-2.0.so libedata-book-1.2.so libedata-cal-2.0.so libedataserver-1.2.so
           libedataserverui-1.2.so)
 license=(GPL)
-options=(debug)
 _commit=a65b1b45f40e600493f7cf31fe73659bf842da79  # tags/3.45.3^0
 source=("git+https://gitlab.gnome.org/GNOME/evolution-data-server.git#commit=$_commit"
         fix-tests.diff)

@@ -14,7 +14,6 @@ depends=(pcre2 libffi util-linux-libs zlib libsysprof-capture)
 makedepends=(gettext gtk-doc shared-mime-info python libelf git util-linux
              meson dbus)
 checkdepends=(desktop-file-utils)
-options=(debug)
 _commit=1edb3c515ad30b5b0a206912c4a2e5936ea9393a  # tags/2.73.3^0
 source=("git+https://gitlab.gnome.org/GNOME/glib.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/gvdb.git"

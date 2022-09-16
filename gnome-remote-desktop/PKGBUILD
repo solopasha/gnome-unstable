@@ -13,7 +13,6 @@ depends=(cairo freerdp "glib2>=2.73.3" pipewire systemd libvncserver libsecret l
 makedepends=(asciidoc git meson ffnvcodec-headers)
 checkdepends=(xorg-server-xvfb python-dbus python-gobject mutter wireplumber)
 groups=(gnome)
-options=(debug)
 _commit=1fb501808c51afb09487fc4280c61dd26eb19676  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-remote-desktop.git#commit=$_commit")
 sha256sums=('SKIP')

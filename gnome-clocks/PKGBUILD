@@ -12,7 +12,6 @@ depends=(libgweather-4 gnome-desktop-4 geoclue geocode-glib-2 gsound
          libadwaita)
 makedepends=(vala gobject-introspection yelp-tools git meson)
 groups=(gnome)
-options=(debug)
 _commit=b91f1f84e979e2328d65097fb94a2dd74f2886de  # tags/43.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-clocks.git#commit=$_commit")
 sha256sums=('SKIP')

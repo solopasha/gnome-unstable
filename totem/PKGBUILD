@@ -21,7 +21,6 @@ optdepends=('gst-plugins-ugly: Extra media codecs'
 conflicts=(totem-plugin)
 replaces=(totem-plugin)
 groups=(gnome)
-options=(debug)
 _commit=29f555d053d44b55971bcba76821ac436090cbd3  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/totem.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgd.git"

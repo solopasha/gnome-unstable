@@ -13,7 +13,6 @@ depends=(geoclue geocode-glib-2 libadwaita libshumate appstream-glib gjs
          libgweather-4 librest)
 makedepends=(gobject-introspection git meson yelp-tools)
 groups=(gnome)
-options=(debug)
 _commit=dbaf5f4f764f122337a47a5daff9c5dc2f102489  # tags/v43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-maps.git#commit=$_commit")
 sha256sums=('SKIP')

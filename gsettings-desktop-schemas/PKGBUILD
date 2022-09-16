@@ -13,7 +13,6 @@ arch=(any)
 license=(GPL)
 depends=("glib2>=2.73.0" dconf cantarell-fonts adobe-source-code-pro-fonts)
 makedepends=(gobject-introspection git meson)
-options=(debug)
 _commit=ae40735c622397631c12ce6b83a736c59f176953  # tags/43.rc.1^0
 source=("git+https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas.git#commit=$_commit")
 sha256sums=('SKIP')

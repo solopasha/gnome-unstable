@@ -13,7 +13,6 @@ url="https://wiki.gnome.org/Projects/NautilusPython"
 license=(GPL2)
 depends=(nautilus python-gobject)
 makedepends=(meson git gtk-doc)
-options=(debug)
 _commit=739405eecb54fbb351e69c4fda93f817ffd08b89  # tags/4.0.alpha^0
 source=("git+https://gitlab.gnome.org/GNOME/nautilus-python.git#commit=$_commit")
 sha256sums=('SKIP')

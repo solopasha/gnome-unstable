@@ -15,7 +15,6 @@ depends=(exempi gtk3 libexif librsvg babl gegl gsettings-desktop-schemas
          libdazzle libhandy libportal-gtk3)
 makedepends=(python yelp-tools git meson docbook-xsl)
 groups=(gnome)
-options=(debug)
 _commit=84905dc144ad032efddac3aa3f5bc0d3eb776d80  # tags/43.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-photos.git#commit=$_commit"
         "git+https://gitlab.gnome.org/GNOME/libgd.git")

@@ -9,7 +9,6 @@ pkgdesc="A collection of plugins for the Grilo framework"
 url="https://gitlab.gnome.org/GNOME/grilo-plugins"
 arch=(x86_64)
 license=(LGPL)
-options=(debug)
 depends=(grilo lua libmediaart libgdata tracker3 gom chromaprint
          gst-plugins-bad gmime3)
 makedepends=(git meson gperf yelp-tools)

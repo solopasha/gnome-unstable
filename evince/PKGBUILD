@@ -15,7 +15,6 @@ depends=(gtk3 libgxps libspectre gsfonts poppler-glib djvulibre dconf libsecret 
          gvfs)
 makedepends=(libnautilus-extension texlive-bin gobject-introspection gi-docgen git meson
              appstream-glib yelp-tools)
-options=(debug)
 _commit=883b8f3cca7665cfce2ed04236ff1cc342418900  # tags/43.alpha^0
 source=("git+https://gitlab.gnome.org/GNOME/evince.git#commit=$_commit")
 sha256sums=('SKIP')

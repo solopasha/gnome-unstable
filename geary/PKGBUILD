@@ -47,7 +47,6 @@ makedepends=(
   vala
   yelp-tools
 )
-options=(debug)
 _commit=f583378b7d0ee74dae28e88061578d5b30d168ab #main
 source=("git+https://gitlab.gnome.org/GNOME/geary.git?#commit=${_commit}") # main
 validpgpkeys=(3A2EF7F138557A145F2866E99FAB18747A8FC649) # Michael James Gratton <mike@vee.net>

@@ -10,7 +10,6 @@ license=(LGPL)
 depends=(gtk4 libsoup3 sqlite)
 makedepends=(git gi-docgen gobject-introspection gtk-doc meson vala)
 checkdepends=(xorg-server-xvfb)
-options=(debug)
 _commit=290359fd6af168b3554c24298ba344eb88a2ed47  # tags/1.0.0.beta^0
 source=("git+https://gitlab.gnome.org/GNOME/libshumate.git#commit=$_commit")
 sha256sums=('SKIP')

@@ -13,7 +13,6 @@ depends=(gtk4 folks gnome-online-accounts libgee libadwaita libportal-gtk4
          evolution-data-server)
 makedepends=(vala gobject-introspection git meson appstream-glib)
 groups=(gnome)
-options=(debug)
 _commit=8ba37596c048baaf9b023ff07522930540379b24  # tags/43.rc^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-contacts.git#commit=$_commit")
 sha256sums=('SKIP')

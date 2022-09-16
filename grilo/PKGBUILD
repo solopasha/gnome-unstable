@@ -8,7 +8,6 @@ pkgdesc="Framework that provides access to various sources of multimedia content
 url="https://wiki.gnome.org/Projects/Grilo"
 arch=(x86_64)
 license=(LGPL)
-options=(debug)
 depends=(libxml2 libsoup3 liboauth totem-plparser)
 makedepends=(gobject-introspection gtk-doc vala git meson gtk3)
 optdepends=('grilo-plugins: Plugins for grilo'

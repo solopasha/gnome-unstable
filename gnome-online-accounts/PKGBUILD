@@ -14,7 +14,6 @@ makedepends=(gobject-introspection gtk-doc vala git meson)
 optdepends=('gvfs-goa: Virtual file systems, e.g. OwnCloud'
             'gvfs-google: Google Drive')
 provides=(libgoa-1.0.so libgoa-backend-1.0.so)
-options=(debug)
 _commit=a4cbc46db8b9ba900d785519467bd30c43018455  # tags/3.45.2^0
 source=("git+https://gitlab.gnome.org/GNOME/gnome-online-accounts.git#commit=$_commit")
 sha256sums=('SKIP')
