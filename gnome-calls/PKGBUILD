@@ -10,7 +10,7 @@ license=(GPL3)
 replaces=("calls")
 conflicts=("calls")
 provides=("calls")
-options=(debug !strip)
+options=(!strip)
 depends=(callaudiod feedbackd folks gom
 	 libhandy libpeas modemmanager sofia-sip)
 makedepends=(appstream git gobject-introspection meson python-docutils vala)

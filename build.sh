@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -eux
-repo=$1
+repo="${1:-extra}"
 
 if [[ -z "$repo" ]]; then
   echo "Usage: ./build <repo>"
@@ -10,7 +10,7 @@ fi
 build() {
   pushd $1
   shift
-  sudo makechrootpkg -r /var/lib/archbuild/${repo}-x86_64/ -- -r --skippgpcheck $@
+  sudo /usr/bin/makechrootpkg -r /var/lib/archbuild/${repo}-x86_64/ -- -r --skippgpcheck $@
   popd
 }
 
@@ -27,9 +27,10 @@ build libgweather-4 -i
 #build webkit2gtk-4.1 -i
 build librest -i
 build gnome-online-accounts -i
-build evolution-data-server -i
+#build evolution-data-server -i
 build gnome-desktop -i
-build geocode-glib-2 -i
+build gnome-session -i
+build mutter -i
 build gnome-settings-daemon -i 
 build tracker3 -i
 build tracker3-miners -i
@@ -39,7 +40,7 @@ build libnma -i
 build gnome-control-center -i
 build adwaita-icon-theme -i
 build gnome-session -i
-build gdm -i
+build js102 -i
 build gjs -i
 build sysprof -i
 build mutter -i
@@ -59,4 +60,3 @@ build xdg-desktop-portal-gnome
 build gnome-shell-extensions
 build gnome-shell-extension-appindicator
 build gnome-weather
-
