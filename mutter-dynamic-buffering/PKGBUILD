@@ -4,9 +4,9 @@
 # Contributor: Michael Kanis <mkanis_at_gmx_dot_de>
 
 pkgbase=mutter
-pkgname=(mutter mutter-docs)
-pkgver=43.0
-pkgrel=0.2
+pkgname=(mutter-dynamic-buffering mutter-dynamic-buffering-docs)
+pkgver=43.0+r6463+g01f700fc1
+pkgrel=1
 pkgdesc="A window manager for GNOME"
 url="https://gitlab.gnome.org/GNOME/mutter"
 arch=(x86_64)
@@ -19,13 +19,13 @@ makedepends=(gobject-introspection git egl-wayland meson xorg-server
              wayland-protocols sysprof gi-docgen)
 # Zenity was removed as dependency, but is still required for the checks
 checkdepends=(xorg-server-xvfb wireplumber python-dbusmock zenity)
-_commit=bdf3470a8a89206a39dc45824a8080dc6a9666ca  # tags/43.0^0
-source=("git+https://gitlab.gnome.org/GNOME/mutter.git#commit=$_commit")
+_commit=01f700fc1c5bd9f6265577d0b86f2f407e256cc4  # triple-buffering-v4^0
+source=("git+https://gitlab.gnome.org/vanvugt/mutter#commit=$_commit")
 sha256sums=('SKIP')
 
 pkgver() {
   cd mutter
-  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g'
+  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g;s/3.27.1/43.0/'
 }
 
 prepare() {
@@ -62,7 +62,7 @@ _check() (
 
 check() {
   dbus-run-session xvfb-run -s '-nolisten local +iglx -noreset' \
-    bash -c "$(declare -f _check); _check" || true
+    bash -c "$(declare -f _check); _check" ||:
 }
 
 _pick() {
@@ -75,8 +75,9 @@ _pick() {
   done
 }
 
-package_mutter() {
-  provides=(libmutter-11.so)
+package_mutter-dynamic-buffering() {
+  conflicts=(mutter)
+  provides=(mutter libmutter-11.so)
   groups=(gnome)
 
   meson install -C build --destdir "$pkgdir"
@@ -84,8 +85,10 @@ package_mutter() {
   _pick docs "$pkgdir"/usr/share/mutter-*/doc
 }
 
-package_mutter-docs() {
+package_mutter-dynamic-buffering-docs() {
   pkgdesc+=" (documentation)"
+  conflicts=(mutter-docs)
+  provides=(mutter-docs)
   depends=()
 
   mv docs/* "$pkgdir"
