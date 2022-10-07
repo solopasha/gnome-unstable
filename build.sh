@@ -71,7 +71,6 @@ build evolution
 build gdm
 build geary
 build gnome-boxes
-build gnome-builder
 build gnome-calendar
 build gnome-calls
 build gnome-characters
@@ -98,4 +97,3 @@ build orca
 build phodav
 build sofia-sip
 build spice-gtk
-
