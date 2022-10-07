@@ -3,7 +3,7 @@ FROM archlinux:base-devel
 RUN pacman -Syu --noconfirm && \
     pacman -S --noconfirm reflector && \
     reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist && \
-    pacman -S --noconfirm git sudo && \
+    pacman -S --noconfirm git sudo devtools && \
     sed \
         -e '/MAKEFLAGS=/s/^#//g' \
         -e '/MAKEFLAGS/s/-j2/-j$(($(nproc)+1))/g' \

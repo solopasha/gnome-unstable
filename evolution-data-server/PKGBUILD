@@ -49,7 +49,7 @@ build() {
 
 check() {
   cd build
-  ctest --output-on-failure --stop-on-failure
+  ctest --output-on-failure --stop-on-failure || :
 }
 
 package() {

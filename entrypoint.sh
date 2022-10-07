@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -eux
 
 if [ -z "$1" ]; then
     echo "Please specify package to build"
@@ -12,8 +12,8 @@ pushd /home/builduser > /dev/null
 chown -R builduser:builduser "$1"
 
 pushd "$1" > /dev/null
-su -c '. PKGBUILD && yay -S --noconfirm ${makedepends[@]} ${depends[@]}' builduser
-su -c 'makepkg -src --noconfirm --skippgpcheck' builduser
+#su -c '. PKGBUILD && yay -S --noconfirm ${makedepends[@]} ${depends[@]}' builduser
+extra-x86_64-build -- -U builduser -- --skippgpcheck
 cp "$1"-*.pkg.* /github/workspace
 popd > /dev/null
 popd > /dev/null
