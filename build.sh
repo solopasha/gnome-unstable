@@ -72,6 +72,7 @@ build gdm
 build geary
 build gnome-boxes
 build gnome-calendar
+build sofia-sip -i
 build gnome-calls
 build gnome-characters
 build gnome-clocks
@@ -95,5 +96,4 @@ build mutter-dynamic-buffering
 build newsflash
 build orca
 build phodav
-build sofia-sip
 build spice-gtk

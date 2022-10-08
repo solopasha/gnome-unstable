@@ -27,6 +27,7 @@ jobs:
       id: build
       run: |
         set +e ; \
+        mkdir /out && \
         pacman -Syu --noconfirm && \
         pacman -S --noconfirm reflector && \
         reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist && \
